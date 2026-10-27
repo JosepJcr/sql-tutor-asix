@@ -1,0 +1,16 @@
+# Configuració local privada (API keys, rutes locals)
+config.php
+
+# Base de dades SQLite local i Sandbox
+data/app.db
+data/app.db-wal
+data/app.db-shm
+data/sandbox/*.sql
+!data/sandbox/.gitkeep
+!data/.gitkeep
+
+# IDE i fitxers de sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
